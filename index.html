@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -15,30 +16,33 @@
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
-          <li>The head element contains information about the webpage.
-            <ul>
-              <li>meta tags give information about the webpage.</li>
-              <li>title sets the title for the page and is used in SEO.</li>
-              <li>link tags attach other documents to the webpage such as external css files, web fonts and icon libraries.</li>
-              <li>script tags contain client-side scripts.</li>
-            </ul>
-          </li>
-          <li>The body element represents the visible content shown to the user.
-            <ul>
-              <li>h1 - h6 are heading tags, they make text more prounounced and are used semantically, only one h1 heading per page.</li>
-              <li>img displays an image.</li>
-              <li>ul (unordered list) renders a bullet pointed list.</li>
-              <li>ol (ordered list) is like ul but numbered.</li>
-              <li>li has to be nested inside ul or ol and each one produces a list item.</li>
-            </ul>
-          </li>
+          <li>The head element contains information about the webpage.</li>
+          <li>meta tags give information about the webpage.</li>
+          <li>title sets the title for the page and is used in SEO.</li>
+          <li>link tags attach other documents to the webpage such as external css files, web fonts and icon libraries.</li>
+          <li>script tags contain client-side scripts.</li>
+          <li>The body element represents the visible content shown to the user.</li>
+          <li>h1 - h6 are heading tags, they make text more prounounced and are used semantically, only one h1 heading per page.</li>
+          <li>img displays an image.</li>
+          <li>ul (unordered list) renders a bullet pointed list.</li>
+          <li>ol (ordered list) is like ul but numbered.</li>
+          <li>li has to be nested inside ul or ol and each one produces a list item.</li>
         </ul>
       </section>
 
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>CSS can be written as inline, internal stylesheets or most commonly external stylesheets</li>
+          <li>External stylesheets must be linked in the head using a link tag and two attributes, rel with the value of stylesheet
+             and href which will include the path to the file (use ./ to use a relative path from the current html file)</li>
+          <li>We then use selctors, properties and values like this: selector {propery: value;}</li>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+          <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li>* selects all visible elements, we usually start off a css file with * {margin: 0; padding: 0;}</li>
+          <li>More than one selector can be targeted at a time, if you want to target to headings: h1, h2 {padding: 20px;}</li>
+          <li>Box shadows create a shadow around an element, it uses the values of x, y, blur, spread and color.</li>
+          <li>Text-align decides what alignment text will have, left, right, center or justified.</li>
         </ul>
       </section>
       <section class="card" id=""git-section">
