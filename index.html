@@ -55,6 +55,28 @@
           <li>git commit -m "commit comment shere": to commit files to git</li>
           <li>git pull origin main: make sure you have the most recent version of the main branch</li>
           <li>git push origin feature/branch-name: push changes to main branch</li>
+          <li class="attention"><em>git pull origin main frequently to make sure have most current version</em></li>
+        </ul>
+        <h3>Git Flow steps</h3>
+        <ul>
+          <li>Navigate to folder</li>
+          <li><em>git status</em> - to check where you are?</li>
+          <li>If not on the main branch - <em>git checkout main</em></li>
+          <li>Pull remote branch into local branch, to make sure up to date - <em>git pull origin main</em></li>
+          <li>Create new branch - <em>git checkout -b feature/branch-name</em></li>
+          <li>Once you are finished on branch:</li>
+          <li>Add all changes to the staging area - <em>git add -A</em></li>
+          <li>Commit the changes - <em>git commit -m "suitable commit message"</em></li>
+          <li>Check local branch is up to date - <em>git pull origin main</em></li>
+          <li>When ready push local changes to remote branch - <em>git push origin feature/branch-name</em></li>
+          <li>When you have completed everything you need to do on this branch:</li>
+          <li>Go to GitHub > Pull Requests > Create a new pull request</li>
+          <li>Check you are merging the correct branch to the main branch...</li>
+          <li>Give title and description on what's been done...</li>
+          <li>Confirm pull request</li>
+          <li>Confirm merge</li>
+          <li>Close any issues if completed</li>
+          <li>Go back to Git Bash and update main branch again - <em>git pull origin main</em></li>
         </ul>
       </section>
       <section class="card" id="javascript-section">
